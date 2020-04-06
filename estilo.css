@@ -1,0 +1,123 @@
+body{
+    background: rgb(23, 190, 207);
+    font: normal 15pt Arial;
+}
+header{
+    color: white;
+    display: block;
+    text-align: center;
+}
+section{
+    margin: auto;
+    padding: 15px;
+}
+footer{
+    color: white;
+    font-style: italic;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+/*Estilo da Logo Superior*/
+#logo_icmc {
+    width: 7%;
+    min-width: 100px;
+    
+}
+#nome_empresa {
+    font-size: 140%;
+    text-align: center;
+    color: rgb(255, 209, 1);
+    text-shadow: -2px 2px 1px white;
+    margin-top: 10px;
+}
+
+/*Estilo Área do Perfil*/
+#foto_perfil_div{
+    float: left;
+    padding-right: 3%;
+}
+
+#foto_perfil_img {
+    width: 95%;
+    min-width: 280px;
+    border-radius: 100px 100%;
+    box-shadow: -3px 10px 2px rgb(255, 209, 1);
+    margin: 5%;
+    text-align: center;
+}
+
+#descricao_perfil {
+    width: 95%;
+    color: white;
+    font: normal 100% Arial;
+    margin-top: 7%;
+    margin-left: auto;
+    padding-right: 2%;
+
+}
+
+#nome_perfil {
+    font: bold 200% Arial;
+    margin-bottom: -5px;
+    color: rgb(255, 209, 1);
+    text-shadow: -3px 1px white;
+    text-align: center;
+}
+
+.subtitulo_perfil {
+    font: bold 150% Arial;
+    padding-top: 30px;
+    margin-bottom: -7px;
+}
+
+#descricao_perfil p{
+    text-align: justify;
+}
+
+/*Estilo Multimida - Video + Curriculum*/
+#titulo_multimidia {
+    width: 100%;
+    text-align: center;
+    font: bold 200% Arial;
+    margin-bottom: -10px;
+    color: rgb(255, 209, 1);
+    text-shadow: -3px 1px white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#video_apresentacao {
+    float: left;
+    width: 100%;
+    height: 283px;
+    max-width: 500px;
+}
+
+#video {
+    width: 100%;
+    height: 100%;
+}
+
+/*Botão de Download do Curriculum*/
+#div_curriculum {
+    text-align: center;
+}
+
+#btn_curriculum {
+    width: 240px;
+    height: 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: arial;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: rgb(255, 209, 1);
+    text-shadow: -2px 2px white;
+    background: rgb(23, 190, 207);
+    box-shadow: -5px 10px rgb(255, 209, 1);
+    border-color: rgb(105, 243, 255);
+}
